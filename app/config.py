@@ -3,7 +3,7 @@ from pathlib import Path
 IMAGE_SIZE = (224, 224)
 CLASS_NAMES = ['Chickenpox', 'Measles', 'Monkeypox', 'Normal']
 
-MODEL_PATH = Path("model.h5")
+MODEL_PATH = Path("model\model.h5")
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
 
